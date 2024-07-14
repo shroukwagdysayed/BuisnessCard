@@ -10,6 +10,7 @@ class BusniessCardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: const Color(0xFF2B475E),
         body: Column(
@@ -24,7 +25,7 @@ class BusniessCardApp extends StatelessWidget {
               ),
             ),
             Text(
-              'Tharwat Samy',
+              'Shrouk Wagdy',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 32,
@@ -69,7 +70,7 @@ class BusniessCardApp extends StatelessWidget {
                   color: Color(0xFF2B475E),
                 ),
                 title: Text(
-                  'tharwatsamy@gmail.com',
+                  'shroukwagdy@gmail.com',
                   style: TextStyle(fontSize: 24),
                 ),
               ),
